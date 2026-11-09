@@ -1,0 +1,66 @@
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# Ignore CSV files
+*.csv
+
+# Ignore c_cpp_properties.json files
+.vscode/c_cpp_properties.json
+
+# Ignorar todo o conteúdo da pasta de resultados gerados pelo TP, mas manter o .gitkeep
+# (negamos a regra para o .gitkeep de modo a que a pasta permaneça no repositório)
+trabalho-pratico/resultados/**
+!trabalho-pratico/resultados/.gitkeep
+
+# Ignorar o executável gerado pelo Makefile
+trabalho-pratico/programa-principal
